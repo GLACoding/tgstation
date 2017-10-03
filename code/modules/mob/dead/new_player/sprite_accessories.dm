@@ -1218,6 +1218,9 @@
 	icon_state = "cat"
 	color_src = HAIR
 
+/datum/sprite_accessory/tail/vox
+	icon = 'icons/mob/mutant_bodyparts.dmi'
+
 /datum/sprite_accessory/snouts
 	icon = 'icons/mob/mutant_bodyparts.dmi'
 
@@ -1376,6 +1379,84 @@
 /datum/sprite_accessory/spines_animated/aqautic
 	name = "Aquatic"
 	icon_state = "aqua"
+
+/datum/sprite_accessory/vox_hair
+	icon = 'icons/mob/mutant_bodyparts.dmi'
+
+/datum/sprite_accessory/vox_hair/vox_quills_short
+	name = "Short Vox Quills"
+	icon_state = "vox_shortquills"
+
+/datum/sprite_accessory/vox_hair/vox_crestedquills
+	name = "Crested Vox Quills"
+	icon_state = "vox_crestedquills"
+
+/datum/sprite_accessory/vox_hair/vox_tielquills
+	name = "Vox Tiel Quills"
+	icon_state = "vox_tielquills"
+
+/datum/sprite_accessory/vox_hair/vox_emperorquills
+	name = "Vox Emperor Quills"
+	icon_state = "vox_emperorquills"
+
+/datum/sprite_accessory/vox_hair/vox_keelquills
+	name = "Vox Keel Quills"
+	icon_state = "vox_keelquills"
+
+/datum/sprite_accessory/vox_hair/vox_keetquills
+	name = "Vox Keet Quills"
+	icon_state = "vox_keetquills"
+
+/datum/sprite_accessory/vox_hair/vox_quills_kingly
+	name = "Kingly Vox Quills"
+	icon_state = "vox_kingly"
+
+/datum/sprite_accessory/vox_hair/vox_quills_fluff
+	name = "Fluffy Vox Quills"
+	icon_state = "vox_afro"
+
+/datum/sprite_accessory/vox_hair/vox_quills_mohawk
+	name = "Vox Quill Mohawk"
+	icon_state = "vox_mohawk"
+
+/datum/sprite_accessory/vox_hair/vox_quills_long
+	name = "Long Vox Quills"
+	icon_state = "vox_yasu"
+
+/datum/sprite_accessory/vox_hair/vox_horns
+	name = "Vox Spikes"
+	icon_state = "vox_horns"
+
+/datum/sprite_accessory/vox_hair/vox_nights
+	name = "Vox Pigtails"
+	icon_state = "vox_nights"
+
+/datum/sprite_accessory/vox_hair/vox_razor
+	name = "Vox Razorback"
+	icon_state = "vox_razor"
+
+/datum/sprite_accessory/vox_hair/vox_razor_clipped
+	name = "Clipped Vox Razorback"
+	icon_state = "vox_razor_clipped"
+
+/datum/sprite_accessory/vox_facial_hair
+	icon = 'icons/mob/mutant_bodyparts.dmi'
+
+/datum/sprite_accessory/vox_facial_hair/vox_colonel
+	name = "Vox Colonel Beard"
+	icon_state = "vox_colonel"
+
+/datum/sprite_accessory/vox_facial_hair/vox_long
+	name = "Long Mustache"
+	icon_state = "vox_fu"
+
+/datum/sprite_accessory/vox_facial_hair/vox_neck
+	name = "Neck Quills"
+	icon_state = "vox_neck"
+
+/datum/sprite_accessory/vox_facial_hair/vox_beard
+	name = "Vox Quill Beard"
+	icon_state = "vox_beard"
 
 /datum/sprite_accessory/legs 	//legs are a special case, they aren't actually sprite_accessories but are updated with them.
 	icon = null					//These datums exist for selecting legs on preference, and little else
