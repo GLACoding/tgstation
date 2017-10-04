@@ -1383,6 +1383,10 @@
 /datum/sprite_accessory/vox_hair
 	icon = 'icons/mob/mutant_bodyparts.dmi'
 
+/datum/sprite_accessory/vox_hair/bald
+	name = "Bald"
+	icon_state = null
+
 /datum/sprite_accessory/vox_hair/vox_quills_short
 	name = "Short Vox Quills"
 	icon_state = "vox_shortquills"
@@ -1441,6 +1445,10 @@
 
 /datum/sprite_accessory/vox_facial_hair
 	icon = 'icons/mob/mutant_bodyparts.dmi'
+
+/datum/sprite_accessory/vox_facial_hair/Shaved
+	name = "Shaved"
+	icon_state = null
 
 /datum/sprite_accessory/vox_facial_hair/vox_colonel
 	name = "Vox Colonel Beard"
